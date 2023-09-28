@@ -243,6 +243,32 @@ h1 {
 .aboutUsLogo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 900px;
   margin: 70px auto;
+}
+
+.logo-hello-fresh {
+  width: 66px;
+  height: 66px;
+}
+
+.logo-trivago {
+  width: 126px;
+  height: 38px;
+}
+
+.logo-los-angelese-times {
+  width: 271px;
+  height: 34px;
+}
+
+.logo-oracle {
+  width: 162px;
+  height: 23px;
+}
+
+.logo-target {
+  width: 52px;
+  height: 66px;
 }
