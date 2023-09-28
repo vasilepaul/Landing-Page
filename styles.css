@@ -1,13 +1,14 @@
 body {
-  background-color: white;
   display: flex;
   justify-content: center;
+  background-color: #f4f6f7;
 }
 
 .container {
   width: 1440px;
   margin-top: 100px;
   font-family: Avenir Next;
+  position: relative;
 }
 
 .header {
@@ -83,7 +84,165 @@ h1 {
   font-weight: 600;
 }
 
+.btn-consultation:hover {
+  transform: scale(1.1);
+}
 .ilustration {
   width: 570px;
   height: 414px;
+  margin-bottom: 100px;
+}
+
+.services {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesBlock {
+  width: 1170px;
+  margin-bottom: 120px;
+  padding-bottom: 50px;
+}
+.textOurService {
+  color: #2557ab;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 200px;
+}
+
+.servicesTitle {
+  color: #13253a;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+}
+
+.servicesElem {
+  display: flex;
+  justify-content: space-around;
+}
+.servicesElem1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serviceIcon {
+  width: 64px;
+  height: 64px;
+}
+
+.serviceIconTitle {
+  color: #3b4d6c;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.serviceIconText {
+  color: #13253a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 0;
+  width: 320px;
+}
+
+.kpi {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 100px;
+  padding-bottom: 20px;
+}
+
+.kpiContent {
+  color: #13253a;
+  font-size: 46px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.kpiContentSpan {
+  color: #ff7f57;
+}
+
+.kpiDescript {
+  color: #2557ab;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.aboutUs {
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.robustAgency {
+  color: #2557ab;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.aboutUsTitle {
+  color: #13253a;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.aboutUsText {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutUsTextLeft {
+  width: 370px;
+  margin-left: 80px;
+}
+
+.aboutUsTextLeftTop {
+  color: #13253a;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.9;
+}
+
+.aboutUsTextLeftBottom {
+  color: #13253a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.9;
+}
+
+.aboutUsTextRight {
+  width: 500px;
+  margin-right: 100px;
+}
+
+.aboutUsTextRight {
+  color: #13253a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.9;
+}
+
+.aboutUsLogo {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 70px auto;
 }
