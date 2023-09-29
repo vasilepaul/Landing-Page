@@ -415,6 +415,8 @@ hr {
   border: none;
   border-bottom: 1px solid rgb(255, 255, 255, 0.25);
   background-color: #11364e;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 input[placeholder="Ram Kaji"] {
   color: #fff;
@@ -426,4 +428,43 @@ input[placeholder="hello@lastdoor.store"] {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+}
+
+#message {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.25);
+  background-color: #11364e;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.buttonSubmit {
+  width: 370px;
+  height: 60px;
+  background-color: #ff7f57;
+  color: #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 130px;
+}
+
+.footer {
+  height: 47px;
+  background-color: #13253a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.footerText {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
 }
